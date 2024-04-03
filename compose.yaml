@@ -1,0 +1,7 @@
+services:
+  img:
+    build: .
+    container_name: trippy-container
+    ports: 
+      - 8000:8000
+    
